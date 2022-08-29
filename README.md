@@ -1,25 +1,35 @@
-# Web 기본기 테스트
-COW HTML, CSS, JS 기본기 테스트를 위한 Repository입니다.
+## 👩‍💻 요구 사항과 구현 내용
+<!-- 기능을 Commit 별로 잘개 쪼개고, Commit 별로 설명해주세요 -->
 
-### 과제 진행 및 제출 방식
-1. [과제 Repository](https://github.com/MJU-Coin/22-S-basic-test)를 fork하여 개인 Repo를 생성
-![Github Fork 하기](https://user-images.githubusercontent.com/61923768/175819407-61e3df49-11f9-4565-b358-5d5fd399b45d.png)
-![Github Fork Detail](https://user-images.githubusercontent.com/61923768/175819509-bd16563f-c37f-4183-95a1-9455390e0335.png)
-2. 개인 Repo에서 과제 작업 진행
-![fork 정상적으로 된 경우](https://user-images.githubusercontent.com/61923768/175819669-8309ef2f-e3f0-40c5-98fd-3a86e911764a.png)
-3. PR 생성 전 [과제 Repository](https://github.com/MJU-Coin/22-S-basic-test)에 내 이름으로 된 Branch 생성하기
-![Branch 생성하기](https://user-images.githubusercontent.com/61923768/175819862-e1158cf1-6914-4789-a56c-77fdacb21472.png)
-4. PR 생성하기
-![PR 생성하기](https://user-images.githubusercontent.com/61923768/175819982-c60b10ca-0629-4c23-aa90-9fe2a63b867d.png)
-![PR 작성하기](https://user-images.githubusercontent.com/61923768/175821970-2264ab0b-bb1b-4a69-b36a-aed358ce3889.png)
-
-
-### 요구사항
-[notion으로 자세히 보기](https://coin-on-web.notion.site/Web-32abd85a25c542aabef2dae7bffa0fbf)
-
-### 과제를 통해 기대하는 역량
-
-- 깃허브를 통한 공동 작업 방식을 체득해보자!
-- 기본적인 화면 구성 능력을 갖춰보자
-- 스스로 모르는 것을 찾아보면서 개발할 수 있는 능력을 갖춰보자
-# COW-22-2-test
+- 기본 기능
+  - [O]  기본 구조 레이아웃 구현
+- Navigation Bar
+  - [X]  카테고리의 세부메뉴 구현
+  - [O]  카테고리 외에 다른 메뉴 색상 변경 구현
+  - [X]  검색창 화면 위로 띄우기 구현
+  - [X]  검색창 레이아웃 구현
+  - [X]  검색창 닫기 버튼 구현
+  - [X]  검색어에 따른 추천 리스트 변경 구현
+  - [X]  검색어 리셋 버튼 구현
+  - [X]  검색창 닫기 버튼 구현
+  - [O]  상단 고정 구현
+- Side Bar
+  - [O]  인기 프로젝트 페이지 이동을 위한 버튼 3가지 구현
+  - [O]  하단 인기 프로젝트 전체 보기 버튼 색 변경 구현
+  - [O]  현재 시각 실시간 변화 구현
+  - [O]  리스트 아이템 화면 확대 기능 구현
+  - [O]  카테고리와 창작자 밑줄 생성 기능 구현
+- Banner
+  - [O]  배너 순서 및 전체 개수 표시 구현
+  - [O]  배너 자동 이동 구현
+  - [O]  배너 좌우 버튼 클릭 기능 구현
+  - [O]  배너 좌우 버튼 색상 변경 기능 구현
+- Main Article
+  - [O]  리스트 아이템 사진 확대 기능
+  - [O]  카테고리 및 창작자 밑줄 생성 기능 구현
+- Footer
+  - [O]  하위 메뉴 강조 기능 구현
+  - [O]  고객 지원 버튼 강조 기능 구현
+  - [I]  소셜 네트워크 이동 버튼 강조 기능 구현
+- 추가 기능
+  - [X]  Responsesive(반응형) 웹 구현
